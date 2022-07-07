@@ -1,0 +1,51 @@
+{
+  "name": "Sample3",
+  "version": "1.0.0",
+  "summary": "This library will be available",
+  "description": "TODO: This library will be available when dependency this to your repo",
+  "homepage": "https://github.com/sandipermata/Sample3",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sandipermata": "sandy.spyware@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sandipermata/Sample3.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9.1"
+    ],
+    "ReachabilitySwift": [
+      "~> 5.0.0"
+    ],
+    "SVGKit": [
+      "~> 2.1.1"
+    ],
+    "CocoaLumberjack": [
+      "~> 3.6.1"
+    ],
+    "moa": [
+
+    ],
+    "Auk": [
+
+    ]
+  },
+  "source_files": "Sample3/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "Sample3": [
+      "Sample3/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png,ttf,otf}"
+    ]
+  },
+  "resources": "Sample3/Classes/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,otf}",
+  "swift_version": "5.0"
+}

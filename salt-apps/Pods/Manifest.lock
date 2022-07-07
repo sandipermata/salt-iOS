@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Auk (11.0.0):
+    - moa
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - moa (12.0.0)
+  - ReachabilitySwift (5.0.0)
+  - Sample3 (1.0.0):
+    - Alamofire (~> 4.9.1)
+    - Auk
+    - CocoaLumberjack (~> 3.6.1)
+    - moa
+    - ReachabilitySwift (~> 5.0.0)
+    - SVGKit (~> 2.1.1)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - Sample3 (from `https://github.com/sandipermata/sample3.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Auk
+    - CocoaLumberjack
+    - moa
+    - ReachabilitySwift
+    - SVGKit
+
+EXTERNAL SOURCES:
+  Sample3:
+    :git: https://github.com/sandipermata/sample3.git
+
+CHECKOUT OPTIONS:
+  Sample3:
+    :commit: 4432cec463250ed0325cc55a5cfdb2d37591155f
+    :git: https://github.com/sandipermata/sample3.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Auk: 7cc533252e2caaaa36b2be19c0b799f6057c365a
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  moa: e2346f12de6c65bbca4d103950d45db9e46785ef
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Sample3: c41874c5fb7add4ec9dfaa8f0a4aae22d59a4aae
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+
+PODFILE CHECKSUM: fcaf47f35e07c08adbed3253c64e1cc13bcc8ceb
+
+COCOAPODS: 1.11.3

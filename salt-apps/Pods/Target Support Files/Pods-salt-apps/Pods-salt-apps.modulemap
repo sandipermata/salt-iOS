@@ -1,0 +1,6 @@
+framework module Pods_salt_apps {
+  umbrella header "Pods-salt-apps-umbrella.h"
+
+  export *
+  module * { export * }
+}

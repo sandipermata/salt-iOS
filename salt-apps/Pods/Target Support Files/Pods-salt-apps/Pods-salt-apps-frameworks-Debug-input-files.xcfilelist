@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-salt-apps/Pods-salt-apps-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Auk/Auk.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SVGKit/SVGKit.framework
+${BUILT_PRODUCTS_DIR}/Sample3/Sample3.framework
+${BUILT_PRODUCTS_DIR}/moa/moa.framework

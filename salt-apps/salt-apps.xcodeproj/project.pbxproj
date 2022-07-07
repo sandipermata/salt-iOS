@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EFDA3BF43D993ED0C7357D /* Pods_salt_apps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF770852C92D537624AB223 /* Pods_salt_apps.framework */; };
+		27AFB1B52876067E0040BB05 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB1B42876067E0040BB05 /* UserData.swift */; };
+		27AFB1B828760DB20040BB05 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB1B628760DB20040BB05 /* UserTableViewCell.swift */; };
+		27AFB1B928760DB20040BB05 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AFB1B728760DB20040BB05 /* UserTableViewCell.xib */; };
+		27AFB1BD287658FA0040BB05 /* SettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB1BC287658FA0040BB05 /* SettingData.swift */; };
+		27AFB1C128765E630040BB05 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB1C028765E630040BB05 /* UserVM.swift */; };
+		27AFB1C3287665A50040BB05 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB1C2287665A50040BB05 /* ProfileVM.swift */; };
+		27AFB21D287671A20040BB05 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFB21B287671A20040BB05 /* LaunchScreenViewController.swift */; };
+		27AFB21E287671A20040BB05 /* LaunchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AFB21C287671A20040BB05 /* LaunchScreenViewController.xib */; };
+		27E851252875CAFB009570C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E851242875CAFB009570C2 /* AppDelegate.swift */; };
+		27E8512E2875CAFE009570C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E8512D2875CAFE009570C2 /* Assets.xcassets */; };
+		27E8513F2875D4FB009570C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E8513E2875D4FB009570C2 /* LaunchScreen.xib */; };
+		27E851422875E00F009570C2 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E851412875E00F009570C2 /* LoginData.swift */; };
+		27E851452875E185009570C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E851432875E185009570C2 /* LoginViewController.swift */; };
+		27E851462875E185009570C2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E851442875E185009570C2 /* LoginViewController.xib */; };
+		27E8514B2875EBF8009570C2 /* TabMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E851492875EBF8009570C2 /* TabMainViewController.xib */; };
+		27E8514C2875EBF8009570C2 /* TabMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8514A2875EBF8009570C2 /* TabMainViewController.swift */; };
+		27E8514F2875EC27009570C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8514D2875EC27009570C2 /* HomeViewController.swift */; };
+		27E851502875EC27009570C2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E8514E2875EC27009570C2 /* HomeViewController.xib */; };
+		27E851532875EC41009570C2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E851512875EC41009570C2 /* SettingViewController.swift */; };
+		27E851542875EC41009570C2 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E851522875EC41009570C2 /* SettingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27AFB1B42876067E0040BB05 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		27AFB1B628760DB20040BB05 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		27AFB1B728760DB20040BB05 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		27AFB1BC287658FA0040BB05 /* SettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingData.swift; sourceTree = "<group>"; };
+		27AFB1C028765E630040BB05 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		27AFB1C2287665A50040BB05 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		27AFB21B287671A20040BB05 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		27AFB21C287671A20040BB05 /* LaunchScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreenViewController.xib; sourceTree = "<group>"; };
+		27E851212875CAFB009570C2 /* salt-apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "salt-apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E851242875CAFB009570C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E8512D2875CAFE009570C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E851322875CAFE009570C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E8513E2875D4FB009570C2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		27E851412875E00F009570C2 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		27E851432875E185009570C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27E851442875E185009570C2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		27E851492875EBF8009570C2 /* TabMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabMainViewController.xib; sourceTree = "<group>"; };
+		27E8514A2875EBF8009570C2 /* TabMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabMainViewController.swift; sourceTree = "<group>"; };
+		27E8514D2875EC27009570C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		27E8514E2875EC27009570C2 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		27E851512875EC41009570C2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		27E851522875EC41009570C2 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		9F7E150D9D48D345AF56EFD5 /* Pods-salt-apps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-salt-apps.debug.xcconfig"; path = "Target Support Files/Pods-salt-apps/Pods-salt-apps.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF770852C92D537624AB223 /* Pods_salt_apps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_salt_apps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6752E564F14EF8DCDA7309A /* Pods-salt-apps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-salt-apps.release.xcconfig"; path = "Target Support Files/Pods-salt-apps/Pods-salt-apps.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E8511E2875CAFB009570C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EFDA3BF43D993ED0C7357D /* Pods_salt_apps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AFB1BE28765D090040BB05 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				27AFB1B628760DB20040BB05 /* UserTableViewCell.swift */,
+				27AFB1B728760DB20040BB05 /* UserTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		27AFB1BF28765DDD0040BB05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27AFB1C028765E630040BB05 /* UserVM.swift */,
+				27AFB1C2287665A50040BB05 /* ProfileVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27AFB21F287675950040BB05 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27E8514D2875EC27009570C2 /* HomeViewController.swift */,
+				27E8514E2875EC27009570C2 /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		27AFB220287675A70040BB05 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27E851512875EC41009570C2 /* SettingViewController.swift */,
+				27E851522875EC41009570C2 /* SettingViewController.xib */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		27AFB221287675D10040BB05 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27E851432875E185009570C2 /* LoginViewController.swift */,
+				27E851442875E185009570C2 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		27AFB222287675F10040BB05 /* LaunchScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27AFB21B287671A20040BB05 /* LaunchScreenViewController.swift */,
+				27AFB21C287671A20040BB05 /* LaunchScreenViewController.xib */,
+			);
+			path = LaunchScreenViewController;
+			sourceTree = "<group>";
+		};
+		27E851182875CAFB009570C2 = {
+			isa = PBXGroup;
+			children = (
+				27E851232875CAFB009570C2 /* salt-apps */,
+				27E851222875CAFB009570C2 /* Products */,
+				7F9231D1DE631E67B0066702 /* Pods */,
+				B229CF326B1316FF90F32871 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27E851222875CAFB009570C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E851212875CAFB009570C2 /* salt-apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E851232875CAFB009570C2 /* salt-apps */ = {
+			isa = PBXGroup;
+			children = (
+				27E851242875CAFB009570C2 /* AppDelegate.swift */,
+				27E8512D2875CAFE009570C2 /* Assets.xcassets */,
+				27E8513E2875D4FB009570C2 /* LaunchScreen.xib */,
+				27E851322875CAFE009570C2 /* Info.plist */,
+				27E851402875DFFA009570C2 /* Model */,
+				27AFB1BF28765DDD0040BB05 /* ViewModel */,
+				27E851552875EC4B009570C2 /* User Stories */,
+			);
+			path = "salt-apps";
+			sourceTree = "<group>";
+		};
+		27E851402875DFFA009570C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27E851412875E00F009570C2 /* LoginData.swift */,
+				27AFB1B42876067E0040BB05 /* UserData.swift */,
+				27AFB1BC287658FA0040BB05 /* SettingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27E851552875EC4B009570C2 /* User Stories */ = {
+			isa = PBXGroup;
+			children = (
+				27AFB1BE28765D090040BB05 /* cell */,
+				27AFB222287675F10040BB05 /* LaunchScreenViewController */,
+				27AFB21F287675950040BB05 /* HomeViewController */,
+				27AFB220287675A70040BB05 /* SettingViewController */,
+				27AFB221287675D10040BB05 /* LoginViewController */,
+				27E8514A2875EBF8009570C2 /* TabMainViewController.swift */,
+				27E851492875EBF8009570C2 /* TabMainViewController.xib */,
+			);
+			path = "User Stories";
+			sourceTree = "<group>";
+		};
+		7F9231D1DE631E67B0066702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7E150D9D48D345AF56EFD5 /* Pods-salt-apps.debug.xcconfig */,
+				F6752E564F14EF8DCDA7309A /* Pods-salt-apps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B229CF326B1316FF90F32871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF770852C92D537624AB223 /* Pods_salt_apps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E851202875CAFB009570C2 /* salt-apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E851352875CAFE009570C2 /* Build configuration list for PBXNativeTarget "salt-apps" */;
+			buildPhases = (
+				52434091E046E0CB79D89E31 /* [CP] Check Pods Manifest.lock */,
+				27E8511D2875CAFB009570C2 /* Sources */,
+				27E8511E2875CAFB009570C2 /* Frameworks */,
+				27E8511F2875CAFB009570C2 /* Resources */,
+				C55B30516D1A427D91C79FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "salt-apps";
+			productName = "salt-apps";
+			productReference = 27E851212875CAFB009570C2 /* salt-apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E851192875CAFB009570C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					27E851202875CAFB009570C2 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 27E8511C2875CAFB009570C2 /* Build configuration list for PBXProject "salt-apps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E851182875CAFB009570C2;
+			productRefGroup = 27E851222875CAFB009570C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E851202875CAFB009570C2 /* salt-apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E8511F2875CAFB009570C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E851462875E185009570C2 /* LoginViewController.xib in Resources */,
+				27AFB21E287671A20040BB05 /* LaunchScreenViewController.xib in Resources */,
+				27E8513F2875D4FB009570C2 /* LaunchScreen.xib in Resources */,
+				27E8512E2875CAFE009570C2 /* Assets.xcassets in Resources */,
+				27E8514B2875EBF8009570C2 /* TabMainViewController.xib in Resources */,
+				27E851502875EC27009570C2 /* HomeViewController.xib in Resources */,
+				27AFB1B928760DB20040BB05 /* UserTableViewCell.xib in Resources */,
+				27E851542875EC41009570C2 /* SettingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52434091E046E0CB79D89E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-salt-apps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55B30516D1A427D91C79FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-salt-apps/Pods-salt-apps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-salt-apps/Pods-salt-apps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-salt-apps/Pods-salt-apps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E8511D2875CAFB009570C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E851452875E185009570C2 /* LoginViewController.swift in Sources */,
+				27AFB1C128765E630040BB05 /* UserVM.swift in Sources */,
+				27AFB1BD287658FA0040BB05 /* SettingData.swift in Sources */,
+				27AFB1C3287665A50040BB05 /* ProfileVM.swift in Sources */,
+				27AFB1B52876067E0040BB05 /* UserData.swift in Sources */,
+				27AFB1B828760DB20040BB05 /* UserTableViewCell.swift in Sources */,
+				27E851532875EC41009570C2 /* SettingViewController.swift in Sources */,
+				27E851252875CAFB009570C2 /* AppDelegate.swift in Sources */,
+				27E851422875E00F009570C2 /* LoginData.swift in Sources */,
+				27E8514F2875EC27009570C2 /* HomeViewController.swift in Sources */,
+				27AFB21D287671A20040BB05 /* LaunchScreenViewController.swift in Sources */,
+				27E8514C2875EBF8009570C2 /* TabMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27E851332875CAFE009570C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E851342875CAFE009570C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E851362875CAFE009570C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7E150D9D48D345AF56EFD5 /* Pods-salt-apps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "salt-apps/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.sample.salt-apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27E851372875CAFE009570C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6752E564F14EF8DCDA7309A /* Pods-salt-apps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "salt-apps/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.sample.salt-apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E8511C2875CAFB009570C2 /* Build configuration list for PBXProject "salt-apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E851332875CAFE009570C2 /* Debug */,
+				27E851342875CAFE009570C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E851352875CAFE009570C2 /* Build configuration list for PBXNativeTarget "salt-apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E851362875CAFE009570C2 /* Debug */,
+				27E851372875CAFE009570C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E851192875CAFB009570C2 /* Project object */;
+}

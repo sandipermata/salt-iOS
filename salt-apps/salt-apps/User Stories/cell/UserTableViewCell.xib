@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="UserTableViewCell" customModule="salt_apps" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p97-3f-KFV">
+                        <rect key="frame" x="122" y="27" width="182" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="182" id="2Y6-eM-A1O"/>
+                            <constraint firstAttribute="height" constant="21" id="EvS-tl-6zH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfm-Zi-tkm">
+                        <rect key="frame" x="122" y="59" width="182" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="P2S-w9-JNy"/>
+                            <constraint firstAttribute="width" constant="182" id="uns-Yn-Njg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="salt" translatesAutoresizingMaskIntoConstraints="NO" id="FqK-Tt-mgg">
+                        <rect key="frame" x="8" y="7" width="97" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="97" id="Bda-Wk-3nx"/>
+                            <constraint firstAttribute="height" constant="85" id="Cdc-OW-6aV"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nfm-Zi-tkm" firstAttribute="top" secondItem="p97-3f-KFV" secondAttribute="bottom" constant="11" id="1WA-bI-35v"/>
+                    <constraint firstAttribute="trailing" secondItem="Nfm-Zi-tkm" secondAttribute="trailing" constant="16" id="2XH-1w-SOo"/>
+                    <constraint firstItem="p97-3f-KFV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="27" id="5sk-JN-su4"/>
+                    <constraint firstAttribute="trailing" secondItem="p97-3f-KFV" secondAttribute="trailing" constant="16" id="Mdz-V1-hMk"/>
+                    <constraint firstItem="FqK-Tt-mgg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="PVM-ac-zQQ"/>
+                    <constraint firstAttribute="bottom" secondItem="Nfm-Zi-tkm" secondAttribute="bottom" constant="23" id="RFA-zs-IeH"/>
+                    <constraint firstAttribute="bottom" secondItem="FqK-Tt-mgg" secondAttribute="bottom" constant="6" id="Xjl-Ce-j6K"/>
+                    <constraint firstItem="FqK-Tt-mgg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ew8-wM-GGo"/>
+                    <constraint firstItem="Nfm-Zi-tkm" firstAttribute="leading" secondItem="FqK-Tt-mgg" secondAttribute="trailing" constant="17" id="fnP-TU-P1x"/>
+                    <constraint firstItem="p97-3f-KFV" firstAttribute="leading" secondItem="FqK-Tt-mgg" secondAttribute="trailing" constant="17" id="jOS-rG-OWU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatar" destination="FqK-Tt-mgg" id="5xS-JY-xbh"/>
+                <outlet property="emailLabel" destination="Nfm-Zi-tkm" id="4Ka-Ua-n5j"/>
+                <outlet property="nameLabel" destination="p97-3f-KFV" id="XrR-uj-QXv"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="57.589285714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="salt" width="333" height="185"/>
+    </resources>
+</document>
