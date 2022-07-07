@@ -45,7 +45,7 @@ class LoginViewController: UIViewController {
         passwordField.autocorrectionType = .no
         
         viewLogin.layer.cornerRadius = 10
-        viewLogin.backgroundColor = ColorWithHexaString().ColorWithHexaStrings(hex: "f8bcde")
+        viewLogin.backgroundColor = ColorWithHexaString().ColorWithHexaStrings(hex: "e42e99")
         signInBtn.backgroundColor = ColorWithHexaString().ColorWithHexaStrings(hex: "e30081")
         signInBtn.layer.cornerRadius = 10
     
